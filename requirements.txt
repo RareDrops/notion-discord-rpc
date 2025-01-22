@@ -1,2 +1,6 @@
-pypresence
-subprocess
+Pillow==11.1.0
+psutil==6.0.0
+PyGetWindow==0.0.9
+pypresence==4.3.0
+pystray==0.19.5
+pywin32==306
