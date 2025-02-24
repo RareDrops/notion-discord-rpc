@@ -60,7 +60,7 @@ start_time = int(time.time())
 
 # use the same name that you used when uploading the image
 RPC.update(large_image="notion_1024", large_text="Notion",
-           small_image="keeb_512", small_text="Taking notes", details=("Editing: " + title))
+           small_image="keeb_512", small_text="Taking notes", details=("Editing: " + title), state="In the app")
 
 # ISSUE: only exits every 15 seconds interval after the exit flag is set
 # Start the system tray icon in a separate thread (need this otherwise the system tray icon won't show up)
